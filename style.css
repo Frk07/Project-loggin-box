@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(bcg\ image.jpg);
+    background-size: 100% 740px;
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.container h1{  
+    margin-bottom: 20px;        
+    font-size: 35px;
+
+}
+.container{
+    width: 400px;
+    height: 450px;
+    border-radius: 30px;
+    box-shadow: rgb(14, 108, 103) 0px 0px 0px 2px;
+    text-align: center;
+    background-color: rgb(6, 2, 11);
+    color: whitesmoke;
+    margin-top: 7%;
+    
+
+}
+.container .loging-box{
+    position: relative;
+    top: 10%;
+}
+.inp1{
+    background-color: black;
+    color: beige;
+    width: 350px;
+    margin: 15px;
+    border: none;
+    outline: none;
+}
+
+button{
+    height: 35px;
+    width: 70%;
+    margin-top:50px;
+    background-color: rgb(14, 108, 103);
+    border-radius: 20px;
+    color: beige;
+    font-size:20px;
+    box-shadow: white 0px 0px 0px 1px;
+}
+
+a{
+padding-top: 9px;
+display: flex;
+justify-content: space-around;
+margin: 10px;
+color: aliceblue;
+text-decoration: none;
+}
+button:hover{
+    background-color: aqua;
+}
+
+a:hover{
+    color: aqua;
+}
